@@ -1,0 +1,47 @@
+{
+    "cloudwatch.emitMetrics": true,
+    "kinesis.endpoint": "",
+    "firehose.endpoint": "",
+    "flows": [
+        {
+            "filePattern": "/var/log/311_service_requests/*.log",
+            "kinesisStream": "311ServiceRequestEventsStream",
+            "partitionKeyOption": "RANDOM",
+            "dataProcessingOptions": [
+                {
+                    "optionName": "CSVTOJSON",
+                    "customFieldNames": [
+                        "CaseSummary",
+                        "CaseStatus",
+                        "CaseSource",
+                        "CaseCreatedDate",
+                        "CaseCreateddttm",
+                        "CaseClosedDate",
+                        "CaseCloseddttm",
+                        "FirstCallResolution",
+                        "CustomerZipCode",
+                        "IncidentAddress1",
+                        "IncidentAddress2",
+                        "IncidentIntersection1",
+                        "IncidentIntersection2",
+                        "IncidentZipCode",
+                        "Longitude",
+                        "Latitude",
+                        "Agency",
+                        "Division",
+                        "MajorArea",
+                        "Type",
+                        "Topic",
+                        "CouncilDistrict",
+                        "PoliceDistrict",
+                        "Neighborhood"
+                    ]
+                }
+            ]
+        },
+        {
+            "filePattern": "/var/log/311_service_requests/*.log",
+            "deliveryStream": "311ServiceRequestEvents"
+        }
+    ]
+}
