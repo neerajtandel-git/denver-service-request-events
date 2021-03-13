@@ -108,7 +108,44 @@ City?**
 
 
 
+**Type of Case Area wise?**
+![alt text](https://github.com/neerajtandel-git/denver-service-request-events/blob/master/images/caseTypeAreaWise.png?raw=true)
 
+
+
+**Top Ten Most Common Cases?**
+![alt text](https://github.com/neerajtandel-git/denver-service-request-events/blob/master/images/topTenMostCommonCases.png?raw=true)
+
+
+
+**Monthly Volume?**
+
+**Monthly Volume of Service Requests**
+![alt text](https://github.com/neerajtandel-git/denver-service-request-events/blob/master/images/monthlyVolumeServiceRequest.png?raw=true)
+
+
+
+**At what time most request is made at (hourly)?**
+
+**Service Request Calls by Hourly**
+![alt text](https://github.com/neerajtandel-git/denver-service-request-events/blob/master/images/serviceRequestCallsHourly.png?raw=true)
+
+
+
+**Type of Accidents in an Area?**
+![alt text](https://github.com/neerajtandel-git/denver-service-request-events/blob/master/images/typeAccidentsInArea.png?raw=true)
+
+
+
+**Number of traffic accidents happening around neighborhood?**
+
+**Total Number of Traffic Accidents Near Neighborhood**
+![alt text](https://github.com/neerajtandel-git/denver-service-request-events/blob/master/images/trafficNearNeihborhood.png?raw=true)
+
+
+
+**Future Scope**
+![alt text](https://github.com/neerajtandel-git/denver-service-request-events/blob/master/images/FutureScope.png?raw=true)
 
 
 
